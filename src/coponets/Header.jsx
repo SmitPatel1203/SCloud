@@ -29,7 +29,7 @@ const Header = () => {
 
                     {/* Center: Desktop Menu */}
                     <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 space-x-6">
-                    <a href="#features" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Home</a>
+                        <a href="#home" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Home</a>
                         <a href="#services" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Services</a>
                         <a href="#portfolio" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Protfolio</a>
                         <a href="#testimonial" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Review</a>
@@ -58,7 +58,7 @@ const Header = () => {
                 {/* Mobile Dropdown Menu */}
                 {mobileMenuOpen && (
                     <div className="lg:hidden mt-4 space-y-3 text-gray-700 font-medium" onClick={() => setMobileMenuOpen(false)}>
-                         <a href="#" className="block">Home</a>
+                        <a href="#" className="block">Home</a>
                         <a href="#services" className="block">Services</a>
                         <a href="#portfolio" className="block">Portfolio</a>
                         <a href="#testimonial" className="block">Review</a>

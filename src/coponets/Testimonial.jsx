@@ -5,7 +5,7 @@ const Testimonials = () => {
     {
       name: 'Sarah Johnson',
       role: 'CEO, TechStart Inc.',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b550?auto=format&fit=crop&w=150&q=80',
+      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80',
       content: 'DigitalCraft transformed our online presence completely. Our website traffic increased by 300% and conversions doubled within the first quarter.',
       rating: 5
     },
