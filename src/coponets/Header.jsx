@@ -29,15 +29,17 @@ const Header = () => {
 
                     {/* Center: Desktop Menu */}
                     <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 space-x-6">
-                        <a href="#features" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Services</a>
-                        <a href="#how" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Protfolio</a>
-                        <a href="#review" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Review</a>
+                    <a href="#features" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Home</a>
+                        <a href="#services" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Services</a>
+                        <a href="#portfolio" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Protfolio</a>
+                        <a href="#testimonial" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Review</a>
+                        <a href="#contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Contact</a>
                     </nav>
 
                     {/* Right: Login + Button */}
                     <div className="hidden lg:flex items-center space-x-4 z-10">
-                        <a href="#" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-5 py-2 rounded-full font-medium">
-                            Contact Now
+                        <a href="#contact" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-5 py-2 rounded-full font-medium">
+                            Get Started
                         </a>
                     </div>
 
@@ -56,13 +58,13 @@ const Header = () => {
                 {/* Mobile Dropdown Menu */}
                 {mobileMenuOpen && (
                     <div className="lg:hidden mt-4 space-y-3 text-gray-700 font-medium" onClick={() => setMobileMenuOpen(false)}>
-                        <a href="#features" className="block">Services</a>
-                        <a href="#how" className="block">Portfolio</a>
-                        <a href="#review" className="block">Review</a>
-                        <a href="#faq" className="block">Contact</a>
-                        <a href="#" className="block">Login</a>
-                        <a href="#" className="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition">
-                            Contact Now
+                         <a href="#" className="block">Home</a>
+                        <a href="#services" className="block">Services</a>
+                        <a href="#portfolio" className="block">Portfolio</a>
+                        <a href="#testimonial" className="block">Review</a>
+                        <a href="#contact" className="block">Contact</a>
+                        <a href="#contact" className="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition">
+                            Get Started
                         </a>
                     </div>
                 )}
