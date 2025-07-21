@@ -3,12 +3,12 @@ import heroImage from "../assets/hero-image.jpg";
 
 const Hero = () => {
     return (
-        <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+        <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-30 pb-10">
             {/* Background with overlay */}
             <div className="absolute inset-0">
                 <img src={heroImage}
                     alt="Digital Agency Hero"
-                    className="w-full h-full object-cover"/>
+                    className="w-full h-full object-cover" />
                 <div className="absolute inset-0 hero-gradient opacity-75"></div>
             </div>
 
@@ -28,31 +28,31 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                        <button
-                            className="flex items-center justify-center border border-white/30 text-white px-8 py-6 text-lg rounded-xl backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
+                        <a
+                            href="mailto:infoscloud06@gmail.com" className="flex items-center justify-center border border-white/30 text-white px-8 py-6 text-lg rounded-xl backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                             Start Your Project
                             <ArrowRight className="ml-2 h-5 w-5" />
-                        </button>
+                        </a>
 
                         {/* Outline Button */}
-                        <button
+                        {/* <button
                             className="flex items-center justify-center border border-white/30 text-white px-8 py-6 text-lg rounded-xl backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                             <Play className="mr-2 h-5 w-5" />
                             Watch Demo
-                        </button>
+                        </button> */}
                     </div>
 
                     {/* Stats */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
-                        <div className="text-center">
+                    <div className="flex flex-wrap justify-center gap-8 max-w-2xl mx-auto">
+                        <div className="text-center min-w-[100px]">
                             <div className="text-3xl md:text-4xl font-bold mb-2">20+</div>
                             <div className="text-white/80">Projects Completed</div>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center min-w-[100px]">
                             <div className="text-3xl md:text-4xl font-bold mb-2">95%</div>
                             <div className="text-white/80">Client Satisfaction</div>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center min-w-[100px]">
                             <div className="text-3xl md:text-4xl font-bold mb-2">3+</div>
                             <div className="text-white/80">Years Experience</div>
                         </div>

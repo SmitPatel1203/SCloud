@@ -106,11 +106,11 @@ const Testimonials = () => {
                 <p className="text-gray-600 text-sm">Average Rating</p>
               </div>
               <div className="h-16 w-px bg-gray-200"></div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="text-3xl font-bold text-gray-900 mb-2">500+</div>
                 <p className="text-gray-600 text-sm">Happy Clients</p>
-              </div>
-              <div className="h-16 w-px bg-gray-200"></div>
+              </div> */}
+              {/* <div className="h-16 w-px bg-gray-200"></div> */}
               <div className="text-center">
                 <div className="text-3xl font-bold text-gray-900 mb-2">98%</div>
                 <p className="text-gray-600 text-sm">Satisfaction Rate</p>
