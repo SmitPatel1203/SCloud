@@ -4,9 +4,9 @@ import Header from './coponets/Header'
 import Hero from './coponets/Hero'
 import Services from './coponets/Services'
 import Portfolio from './coponets/Protfolio'
-import Testimonials from './coponets/Testimonial'
 import Contact  from './coponets/Contact'
 import Footer from './coponets/Footer'
+import Review from './coponets/Review'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <Services />
       <Portfolio />
-      <Testimonials />
+      <Review />
       <Contact /> 
       <Footer />
     </>

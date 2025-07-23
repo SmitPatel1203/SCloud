@@ -73,10 +73,10 @@ const Services = () => {
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Our <span className="text-indigo-600">Services</span>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            What Our <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Services</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We offer a comprehensive suite of digital services to help your business thrive in the digital landscape.
           </p>
         </div>

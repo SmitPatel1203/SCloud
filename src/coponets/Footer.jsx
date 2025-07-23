@@ -68,10 +68,8 @@ const Footer = () => {
                         <ul className="space-y-3">
                             {footerLinks.services.map((link, index) => (
                                 <li key={index}>
-                                    <a
-                                        href="#"
-                                        className="text-gray-300 hover:text-white transition-colors duration-200"
-                                    >
+                                    <a href="#"
+                                        className="text-gray-300 hover:text-white transition-colors duration-200">
                                         {link}
                                     </a>
                                 </li>
@@ -86,9 +84,8 @@ const Footer = () => {
                             {footerLinks.company.map((link, index) => (
                                 <li key={index}>
                                     <a
-                                        href="#"
-                                        className="text-gray-300 hover:text-white transition-colors duration-200"
-                                    >
+                                        href="#services"
+                                        className="text-gray-300 hover:text-white transition-colors duration-200">
                                         {link}
                                     </a>
                                 </li>

@@ -52,18 +52,17 @@ const Portfolio = () => {
     }
   ];
 
-//   const getCategoryColor = (color: string) => {
-   
-//     const colors = {
-//       blue: 'bg-blue-100 text-blue-800',
-//       purple: 'bg-purple-100 text-purple-800',
-//       green: 'bg-green-100 text-green-800',
-//       red: 'bg-red-100 text-red-800',
-//       indigo: 'bg-indigo-100 text-indigo-800',
-//       pink: 'bg-pink-100 text-pink-800'
-//     };
-//     return colors[color as keyof typeof colors] || colors.blue;
-//   };
+  //   const getCategoryColor = (color: string) => {
+  //     const colors = {
+  //       blue: 'bg-blue-100 text-blue-800',
+  //       purple: 'bg-purple-100 text-purple-800',
+  //       green: 'bg-green-100 text-green-800',
+  //       red: 'bg-red-100 text-red-800',
+  //       indigo: 'bg-indigo-100 text-indigo-800',
+  //       pink: 'bg-pink-100 text-pink-800'
+  //     };
+  //     return colors[color as keyof typeof colors] || colors.blue;
+  //   };
 
   return (
     <section id="portfolio" className="py-20 bg-white">
@@ -81,14 +80,11 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2"
-            >
+              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
+                <img src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <button className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200">
@@ -104,21 +100,19 @@ const Portfolio = () => {
                 <div className={"inline-block px-3 py-1 rounded-full text-xs font-medium mb-3 "}>
                   {project.category}
                 </div>
-                
+
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                   {project.description}
                 </p>
-                
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md"
-                    >
+                      className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-md">
                       {tag}
                     </span>
                   ))}
@@ -127,7 +121,6 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-
         <div className="text-center mt-16">
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:scale-105 transition-all duration-300">
             View All Projects
