@@ -27,19 +27,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'hello@digitalcraft.com',
+      content: 'infoscloud06@gmail.com',
       subcontent: 'We reply within 24 hours'
     },
-    {
-      icon: Phone,
-      title: 'Call Us',
-      content: '+1 (555) 123-4567',
-      subcontent: 'Mon-Fri from 8am to 5pm'
-    },
+    // {
+    //   icon: Phone,
+    //   title: 'Call Us',
+    //   content: '+1 (555) 123-4567',
+    //   subcontent: 'Mon-Fri from 8am to 5pm'
+    // },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Digital Street, Tech City',
+      content: 'Sun Rising Homes, Jagatpur, Ahmedabad, India - 382470.',
       subcontent: 'Schedule an appointment'
     }
   ];
