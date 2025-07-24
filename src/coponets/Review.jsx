@@ -3,47 +3,53 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Star, Quote } from 'lucide-react';
 
+import Client1 from '../assets/Clients/Client1.jpg'
+import Client2 from '../assets/Clients/Client2.jpg'
+import Client3 from '../assets/Clients/Client3.jpg'
+import Client4 from '../assets/Clients/Client4.jpg'
+import Client5 from '../assets/Clients/Client5.jpg'
+import Client6 from '../assets/Clients/Client6.jpg'
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'CEO, TechStart Inc.',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80',
-    content: 'DigitalCraft transformed our online presence completely. Our website traffic increased by 300% and conversions doubled within the first quarter.',
+    name: 'Dixit Patel',
+    role: 'Co-Founder',
+    image: Client6,
+    content: 'SCloud did an amazing job optimizing my website. They greatly improved the speed, which has made a noticeable difference in user experience and search rankings.',
     rating: 5
   },
   {
-    name: 'Michael Chen',
-    role: 'Marketing Director, GrowthCo',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80',
-    content: 'The team\'s expertise in both web development and digital marketing is unmatched. They delivered exactly what we needed and more.',
+    name: 'Harsh Patel',
+    role: 'Owner of C.G.Fast Food',
+    image: Client2,
+    content: 'SCloud Meta Ads and organic strategies for Facebook and Instagram have been a game-changer for C.G. Fast Food!(Visnagar) We saw a massive increase in traffic...',
     rating: 5
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Founder, Local Bistro',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80',
-    content: 'Working with DigitalCraft was a game-changer for our restaurant. Online orders increased by 250% after our website redesign.',
+    name: 'Nilesh Patel',
+    role: 'Founder',
+    image: Client1,
+    content: 'A huge thank you to the team at S-Cloud for their exceptional work on our recent website redesign project. Their creativity, technical expertise, and attention to...',
     rating: 5
   },
   {
-    name: 'David Park',
-    role: 'CTO, FinanceApp',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
-    content: 'Professional, reliable, and results-driven. The DigitalCraft team exceeded our expectations on every level.',
+    name: 'Jayveer HealthCare',
+    role: 'Co-Founder, Piyush Patel',
+    image: Client3,
+    content: 'Thank you, SCloud Digital Agency, for crafting a website that not only meets but exceeds my expectations! The speed and excellence of your service are truly commendable.',
     rating: 5
   },
   {
-    name: 'Lisa Thompson',
-    role: 'Owner, Fashion Boutique',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80',
-    content: 'Our e-commerce platform is now beautiful, fast, and user-friendly. Sales have increased significantly since the launch.',
+    name: 'Yash Patel',
+    role: 'Owner, Photo Gallery',
+    image: Client4,
+    content: 'SCloud email marketing services significantly boosted my campaign performance with their expert strategies and professional execution. Highly recommend them for outstanding results and ongoing support!',
     rating: 5
   },
   {
-    name: 'James Wilson',
-    role: 'Director, Healthcare Plus',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80',
-    content: 'The patient portal they built has streamlined our operations and improved patient satisfaction scores dramatically.',
+    name: 'Bhoomi Joshi',
+    role: 'Owner, SRK Education',
+    image: Client5,
+    content: 'We partnered with SCloud for our coaching class’s digital growth – including SEO, social media marketing, logo, and brand design. Their team delivered professional, well-thought-out solutions that truly elevated...',
     rating: 5
   }
 ];

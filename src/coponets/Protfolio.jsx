@@ -1,28 +1,35 @@
 import { ExternalLink, Github } from 'lucide-react';
 
+import WebDevelop from '../assets/Protfolio/e-commerce-platform.jpeg'
+import Restaurant from '../assets/Protfolio/restaurant-website.jpeg'
+import SaasMarketing from '../assets/Protfolio/SaaS Marketing-campaign.jpeg'
+import HealthCare from '../assets/Protfolio/healthcare-portal.jpg'
+import BrandRedesign from '../assets/Protfolio/brand-redesign.jpeg'
+import RealEstate from '../assets/Protfolio/real-estate-platform.jpeg'
+
 const Portfolio = () => {
   const projects = [
     {
       title: 'E-Commerce Platform',
       category: 'Web Development',
       description: 'Full-stack e-commerce solution with payment integration and inventory management.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      image: WebDevelop,
+      tags: ['React', 'Node.js', 'MYSQL', 'WordPress'],
       color: 'blue'
     },
     {
       title: 'Restaurant Website',
       category: 'Web Design & Development',
       description: 'Modern restaurant website with online ordering and reservation system.',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80',
-      tags: ['React', 'Tailwind', 'Firebase', 'PWA'],
+      image: Restaurant,
+      tags: ['React', 'Tailwind', 'Vite', 'MYSQL'],
       color: 'purple'
     },
     {
       title: 'SaaS Marketing Campaign',
       category: 'Digital Marketing',
       description: 'Comprehensive digital marketing strategy that increased leads by 400%.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80',
+      image: SaasMarketing,
       tags: ['Google Ads', 'Facebook Ads', 'SEO', 'Analytics'],
       color: 'green'
     },
@@ -30,15 +37,15 @@ const Portfolio = () => {
       title: 'Healthcare Portal',
       category: 'Web Development',
       description: 'Patient management system with appointment scheduling and medical records.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=600&q=80',
-      tags: ['Vue.js', 'Laravel', 'MySQL', 'HIPAA'],
+      image: HealthCare,
+      tags: ['JavaScript', 'HTML-CSS', 'MySQL', 'App Script'],
       color: 'red'
     },
     {
       title: 'Brand Redesign',
       category: 'Branding & Marketing',
       description: 'Complete brand overhaul including logo, website, and marketing materials.',
-      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=600&q=80',
+      image: BrandRedesign,
       tags: ['Branding', 'UI/UX', 'Social Media', 'Content'],
       color: 'indigo'
     },
@@ -46,8 +53,8 @@ const Portfolio = () => {
       title: 'Real Estate Platform',
       category: 'Web Development',
       description: 'Property listing platform with advanced search and virtual tours.',
-      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80',
-      tags: ['Next.js', 'PostgreSQL', 'Maps API', 'Virtual Tours'],
+      image: RealEstate,
+      tags: ['WordPress', 'PHP', 'MYSQL', 'Elementor Pro'],
       color: 'pink'
     }
   ];
@@ -90,9 +97,9 @@ const Portfolio = () => {
                   <button className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200">
                     <ExternalLink className="h-4 w-4 text-gray-700" />
                   </button>
-                  <button className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200">
+                  {/* <button className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200">
                     <Github className="h-4 w-4 text-gray-700" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
 
