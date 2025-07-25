@@ -1,69 +1,33 @@
-import { ArrowRight, Play } from "lucide-react";
-import heroImage from "../assets/hero-image.jpg";
+import heroImage from "../assets/web-dev-digitalmarketing.png";
+import Contact from '../coponets/Contact';
 
 const Hero = () => {
     return (
-        <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-30 pb-10">
-            {/* Background with overlay */}
-            <div className="absolute inset-0">
-                <img src={heroImage}
-                    alt="Digital Agency Hero"
-                    className="w-full h-full object-cover" />
-                <div className="absolute inset-0 hero-gradient opacity-75"></div>
-            </div>
+        <section className="hero-section bg-gradient-to-br from-blue-50 to-purple-50" id="home">
+            <div className="max-w-7xl mx-auto px-4 pt-35 pb-20 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
 
-            {/* Content */}
-            <div className="relative z-10 container mx-auto px-4">
-                <div className="max-w-4xl mx-auto text-center text-white">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                        Transform Your
-                        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200">
-                            Digital Presence
-                        </span>
+                {/* Left: Text Content */}
+                <div className="w-full lg:w-1/2 text-center lg:text-left">
+                    <p className="bg-yellow-400 text-blue-900 font-semibold px-4 py-1 rounded-full inline-block text-sm mb-4">Design. Develop. Dominate. — All in One Place</p>
+                    <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-snug font-bold text-gray-900 mb-4 mt-3">
+                        Your <b className='bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>All-in-One</b> Digital Partner - SCloud
                     </h1>
-
-                    <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
-                        We're a full-service digital agency specializing in web development, digital marketing, and design.
-                        Let us elevate your brand and drive measurable results.
+                    <p className="text-gray-600 mb-6 text-base sm:text-lg">
+                        At SCloud, we help startups, small businesses, and enterprises build powerful online brands through professional website development, advanced SEO strategies, social media marketing, logo & brand design, Google Ads, and content creation. We don’t just provide services — we deliver results that grow your traffic, leads, and revenue.
                     </p>
-
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                        <a
-                            href="mailto:infoscloud06@gmail.com" className="flex items-center justify-center border border-white/30 text-white px-8 py-6 text-lg rounded-xl backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
-                            Start Your Project
-                            <ArrowRight className="ml-2 h-5 w-5" />
+                    <div className="flex justify-center lg:justify-start items-center gap-4">
+                        <a href={Contact} className=" bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-400 hover:text-white font-bold transition  duration-200">
+                            Contact Now
                         </a>
-
-                        {/* Outline Button */}
-                        {/* <button
-                            className="flex items-center justify-center border border-white/30 text-white px-8 py-6 text-lg rounded-xl backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
-                            <Play className="mr-2 h-5 w-5" />
-                            Watch Demo
-                        </button> */}
-                    </div>
-
-                    {/* Stats */}
-                    <div className="flex flex-wrap justify-center gap-8 max-w-2xl mx-auto">
-                        <div className="text-center min-w-[100px]">
-                            <div className="text-3xl md:text-4xl font-bold mb-2">20+</div>
-                            <div className="text-white/80">Projects Completed</div>
-                        </div>
-                        <div className="text-center min-w-[100px]">
-                            <div className="text-3xl md:text-4xl font-bold mb-2">95%</div>
-                            <div className="text-white/80">Client Satisfaction</div>
-                        </div>
-                        <div className="text-center min-w-[100px]">
-                            <div className="text-3xl md:text-4xl font-bold mb-2">3+</div>
-                            <div className="text-white/80">Years Experience</div>
-                        </div>
+                        {/* <a href="https://tispy.net/demo/" className="text-white font-medium hover:underline">
+                            View Demo
+                        </a> */}
                     </div>
                 </div>
-            </div>
 
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 animate-bounce">
-                <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-                    <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
+                {/* Right: Image or Illustration */}
+                <div className="w-full lg:w-1/2">
+                    <img src={heroImage} alt="Hero illustration" className="w-full h-auto" />
                 </div>
             </div>
         </section>

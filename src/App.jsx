@@ -7,6 +7,7 @@ import Portfolio from './coponets/Protfolio'
 import Contact  from './coponets/Contact'
 import Footer from './coponets/Footer'
 import Review from './coponets/Review'
+import ThreeSteps from './coponets/ThreeSteps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Portfolio />
       <Review />
+      <ThreeSteps />
       <Contact /> 
       <Footer />
     </>
