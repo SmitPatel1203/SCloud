@@ -27,7 +27,7 @@ const features = [
 
 const About = () => {
     return (
-        <section className="bg-gray-50">
+        <section id='about' className="bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
 
                 {/* Left: Text Content */}

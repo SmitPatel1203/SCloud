@@ -32,6 +32,7 @@ const Header = () => {
                         <a href="#home" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Home</a>
                         <a href="#services" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Services</a>
                         <a href="#portfolio" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Protfolio</a>
+                        <a href="#about" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">About Us</a>
                         <a href="#review" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Review</a>
                         <a href="#contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:bg-blue-50">Contact</a>
                     </nav>
@@ -61,6 +62,7 @@ const Header = () => {
                         <a href="#" className="block">Home</a>
                         <a href="#services" className="block">Services</a>
                         <a href="#portfolio" className="block">Portfolio</a>
+                        <a href="#about" className="block">About Us</a>
                         <a href="#testimonial" className="block">Review</a>
                         <a href="#contact" className="block">Contact</a>
                         <a href="#contact" className="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition">
