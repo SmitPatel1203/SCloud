@@ -31,9 +31,9 @@ const About = () => {
             <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
 
                 {/* Left: Text Content */}
-                <div className="w-full lg:w-1/2 text-left lg:text-left">
+                <div className="w-full lg:w-1/2 text-left lg:text-left px-2">
                     <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                        About SCloud
+                        About <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">SCloud</span> 
                     </h2>
                     <p className="text-gray-600 mb-6 text-base sm:text-lg">
                         At SCloud, we’re a results-driven digital agency offering professional website development, mobile app development (Android & iOS), SEO, Google Ads, social media marketing, and branding services — all under one roof.

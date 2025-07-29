@@ -21,7 +21,7 @@ const ThreeSteps = () => {
         </div>
 
         {/* Right Steps */}
-        <div className="relative flex flex-col gap-12">
+        <div className="relative flex flex-col gap-12 px-4">
 
           {/* Step 1 */}
           <div className="relative bg-white rounded-xl shadow-lg p-6">
