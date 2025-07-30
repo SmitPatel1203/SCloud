@@ -1,5 +1,5 @@
 import heroImage from "../assets/web-dev-digitalmarketing.png";
-import Contact from '../coponets/Contact';
+import Contact from '../components/Contact';
 
 const Hero = () => {
     return (
