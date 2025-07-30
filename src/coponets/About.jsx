@@ -1,25 +1,25 @@
 import AboutImg from '../assets/about-us.png'
 
-import { Code, Layers, TrendingUp, Headphones } from "lucide-react";
+import { Factory, MonitorSmartphone, ChartNoAxesCombined, Headset } from "lucide-react";
 
 const features = [
   {
-    icon: <Code className="h-6 w-6 text-white" />,
+    icon: <Factory className="h-6 w-6 text-white" />,
     title: "Industry Leader",
     desc: "Trusted by brands across pharma, real estate, food, and more.",
   },
   {
-    icon: <Layers className="h-6 w-6 text-white" />,
+    icon: <MonitorSmartphone className="h-6 w-6 text-white" />,
     title: "Digital Services",
     desc: "Web, app, SEO, ads, and branding — all in one place.",
   },
   {
-    icon: <TrendingUp className="h-6 w-6 text-white" />,
+    icon: <ChartNoAxesCombined className="h-6 w-6 text-white" />,
     title: "Growth Focused",
     desc: "We turn clicks into customers with smart, result-driven strategies.",
   },
   {
-    icon: <Headphones className="h-6 w-6 text-white" />,
+    icon: <Headset className="h-6 w-6 text-white" />,
     title: "24/7 Support",
     desc: "Fast response and expert help — whenever you need it.",
   },

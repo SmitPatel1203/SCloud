@@ -1,6 +1,8 @@
 'use client';
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Cloudy } from 'lucide-react';
+
 // import TiSPYLogo from '../assets/Logo/TiSPY-LOGO.webp'
 
 const Header = () => {
@@ -17,7 +19,13 @@ const Header = () => {
               <img src="#" alt="Logo" className="w-auto" />
             </a>
           </div> */}
-                    <div className="flex items-center gap-4 z-10">
+                    <div className="flex items-center gap-2 z-10">
+                        <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-lg">
+                            <div className="flex items-center space-x-1">
+                                <Cloudy className="h-5 w-5 text-white" />
+                                {/* <Zap className="h-5 w-5 text-white" /> */}
+                            </div>
+                        </div>
                         <a href="#" className="flex items-center space-x-2">
                             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                                 SCloud
