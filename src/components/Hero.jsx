@@ -16,7 +16,7 @@ const Hero = () => {
                         At SCloud, we help startups, small businesses, and enterprises build powerful online brands through professional website development, advanced SEO strategies, social media marketing, logo & brand design, Google Ads, and content creation. We don’t just provide services — we deliver results that grow your traffic, leads, and revenue.
                     </p>
                     <div className="flex justify-center lg:justify-start items-center gap-4">
-                        <a href={Contact} className=" bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-400 hover:text-white font-bold transition  duration-200">
+                        <a href="#contact" className=" bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-400 hover:text-white font-bold transition  duration-200">
                             Contact Now
                         </a>
                         {/* <a href="https://tispy.net/demo/" className="text-white font-medium hover:underline">
